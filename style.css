@@ -1,12 +1,12 @@
 /*the sidebar menu*/
 .sidenav {
 height: 100%;
-width: 160px;
+width: 180px;
 position: fixed;
 z-index: 1;
 top: 0;
 left: 0;
-background-color: #1d3333;
+background-color: #023773;
 overflow-x: hidden;
 padding-top: 20px;
 }
@@ -15,7 +15,7 @@ padding-top: 20px;
 .sidenav a {
 padding: 6px 8px 6px 16px;
 text-decoration: none;
-font-size: 20px;
+font-size: 25px;
 color: #157878;
 display: block;
 }

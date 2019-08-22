@@ -1,38 +1,56 @@
-/*the sidebar menu*/
+/*the side navigation menu*/
 .sidenav {
-height: 100%;
-width: 180px;
-position: fixed;
-z-index: 1;
-top: 0;
-left: 0;
-background-color: #023773;
-overflow-x: hidden;
-padding-top: 20px;
+  margin: 0;
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  background-color: #023773;
+  overflow: auto;
+  padding: 0;
 }
 
-/*the navigation menu links*/
-.sidenav a {
-padding: 6px 8px 6px 16px;
-text-decoration: none;
-font-size: 25px;
-color: #157878;
-display: block;
+/*sidebar links*/
+.sidebar a {
+  display: block;
+  color: blue;
+  padding: 16px;
+  text-decoration: none;
 }
 
-/*when you mouse over the navigation links, change their color*/
-.sidenav a:hover {
-color: #f1f1f1;
+/*active/current link*/
+.sidebar a.active {
+  background-color: #157878;
+  color: white;
 }
 
-
-/*style page content*/
-.main {
-margin-left: 160px;
-padding: 0px 10px;
+/*links on mouse-over*/
+.sidebar a:hover:not(.active) {
+  background-color: #033b1a;
+  color: white;
 }
 
-@media screen and (max-height: 450px) {
-.sidenav {padding-top: 15px;}
-.sidenav a {font-size: 18px;}
+/*page content*/
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+/*sidebar to topbar on screens less than 700px wide*/
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/*veritcal sidebar display on screens less than 400px wide*/
+@media screen and (max-width 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
 }

@@ -10,7 +10,7 @@
 }
 
 /*sidebar links*/
-.sidebar a {
+.sidenav a {
   display: block;
   color: blue;
   padding: 16px;
@@ -18,13 +18,13 @@
 }
 
 /*active/current link*/
-.sidebar a.active {
+.sidenav a.active {
   background-color: #157878;
   color: white;
 }
 
 /*links on mouse-over*/
-.sidebar a:hover:not(.active) {
+.sidenav a:hover:not(.active) {
   background-color: #033b1a;
   color: white;
 }

@@ -1,3 +1,21 @@
-<head> <link "stylesheet" href="style.css" </head>
+<head>
+  <title>Matthew C. Barnhart</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>  
+  <!--side navigation-->
+  <div class="sidebar">
+    <a class="active" href="#home">Home</a><br/>
+    <a href="#Education">Education</a><br/>
+    <a href="#Professional Experience"> Professional Experience</a><br/>
+    <a href="#Skillz">Skills</a><br/>
+  </div>
+  
+    <img src="https://lh3.googleusercontent.com/QeuWX22OG5bARNF3ij58X7ogj3UBBFqZZj_Dp-C10__rY_y42SEcoKImuDeV42iaBDn2KNVmrAIwQVknvhjAP_6CmnP95Afs49SERDfN_FlprwNoxU6e5Tx0SfY7VGw-0DNp0tBucw=w2400" alt="Matthew Barnhart's logo. Imagine the Triforce from Legend of Zelda in an array of greens and gold."/>
 
-<h1> Hello!</h1>
+  
+  <!--page content-->
+  <div class="content">
+  <h1 align="center">Matthew C. Barnhart</h1>
+  <p>Doin' the best I can</p>
+  </div>
+</body>

@@ -36,8 +36,8 @@ div.content {
   height: 1000px;
 }
 
-/*sidebar to topbar on screens less than 700px wide*/
-@media screen and (max-width: 700px) {
+/*sidebar to topbar on screens less than 4000px wide*/
+@media screen and (max-width: 4000px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -47,8 +47,8 @@ div.content {
   div.content {margin-left: 0;}
 }
 
-/*veritcal sidebar display on screens less than 400px wide*/
-@media screen and (max-width 400px) {
+/*veritcal sidebar display on screens less than 2000px wide*/
+@media screen and (max-width 2000px) {
   .sidebar a {
     text-align: center;
     float: none;

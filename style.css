@@ -2,7 +2,7 @@
 .sidebar {
   margin: 0;
   height: 100%;
-  width: 200px;
+  width: 160px;
   position: fixed;
   background-color: #023773;
   overflow: auto;
@@ -36,8 +36,8 @@ div.content {
   height: 1000px;
 }
 
-/*sidebar to topbar on screens less than 4000px wide*/
-@media screen and (max-width: 4000px) {
+/*sidebar to topbar on screens less than 1200px wide*/
+@media screen and (max-width: 1200px) {
   .sidebar {
     width: 100%;
     height: auto;
@@ -47,8 +47,8 @@ div.content {
   div.content {margin-left: 0;}
 }
 
-/*veritcal sidebar display on screens less than 2000px wide*/
-@media screen and (max-width 2000px) {
+/*veritcal sidebar display on screens less than 400px wide*/
+@media screen and (max-width 400px) {
   .sidebar a {
     text-align: center;
     float: none;

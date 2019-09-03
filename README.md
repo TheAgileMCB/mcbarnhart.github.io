@@ -1,4 +1,4 @@
-<body>
+<body align="center">
   <h1>This is a README.</h1></br>
 <h2>I don't know what it's purpose truly is.<h2></br>
 <h1>Instrucional?</h1></br>

@@ -71,7 +71,7 @@ a:hover {
 
 /* Header and Footer */
 header, footer {
-  background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.3), rgba(231, 113, 125, 0.9)), url(..Images/sunhills.jpg) fixed;
+  background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.3), rgba(231, 113, 125, 0.9)), url(../Images/sunhills.jpg) fixed;
   color: #FFFFFF;
 }
 /* header */

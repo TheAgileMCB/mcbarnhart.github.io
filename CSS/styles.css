@@ -41,7 +41,7 @@ main {
   text-align: center;
   font-size: 24px;
   color: #FFFFFF;
-  background: linear-gradient(to top left, rgba(153, 115, 142, 1), rgba(85, 61, 103, 0.9)), url(../Images/honeycombs.png) fixed;
+  background: linear-gradient(to top left, rgba(153, 115, 142, 1), rgba(85, 61, 103, 0.9)), url(../Images/Honeycombs.png) fixed;
   margin: 0;
   padding: 10px 220px;
 }
@@ -136,7 +136,7 @@ nav a.active {
     background: linear-gradient(to right, rgba(47, 47, 162, 1), rgba(36, 37, 130, 0.7)), url(../Images/BubbleBanner@2x.jpg);
   }
   main {
-    background: linear-gradient(to top left, rgba(153, 115, 142, 1), rgba(85, 61, 103, 0.9)), url(../Images/honeycombs@2x.png) fixed;
+    background: linear-gradient(to top left, rgba(153, 115, 142, 1), rgba(85, 61, 103, 0.9)), url(../Images/Honeycombs@2x.png) fixed;
   }
 }
 

@@ -1,0 +1,213 @@
+/* color palette
+#E7717D - pink red
+#C2CAD0 - stone grey
+#C2B9B0 - tan
+#7E685A - brown
+#AFD275 - green apple
+*/
+
+/* Global Styles */
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+body {
+font-family: 'Source Sans Pro', sans-serif;
+font-size:20px;
+line-height:1.5;
+margin: 0;
+}
+h1, h2, h3, h4 {
+  font-weight: 400;
+  margin: 0;
+}
+h1 {
+  font-family: 'Julius Sans One', sans-serif;
+  font-size: 70px;
+}
+h2 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 40px;
+  margin-top: 0;
+}
+h3 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 30px;
+  margin: 0;
+}
+/*h4 {
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 25px;
+}*/
+a {
+  color: #E7717D;
+  text-decoration: none;
+}
+a:hover {
+  background-color: #E7717D;
+  color: #FFFFFF;
+  border: 2px solid #C2CAD0;
+}
+.content-wrap {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 50px 50px;
+  overflow: hidden;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+/* Download button */
+.btn {
+  text-decoration: none;
+  background: #C2CAD0;
+  color: #E7717D;
+  border: 2px solid #C2CAD0;
+  padding: 4px 10px;
+  display: inline-block;
+}
+
+/* Header and Footer */
+header, footer {
+  background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.3), rgba(231, 113, 125, 0.9)), url(../images/sunhills.png) fixed;
+  color: #FFFFFF;
+}
+/* header */
+header {
+  padding-top: 50px;
+  position: relative;
+}
+.download {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.profile-img {
+  border-radius: 50%;
+}
+/* footer*/
+footer {
+text-align: center;
+}
+
+.contact-info a {
+    padding: 2px 40px;
+    display: inline-block;
+    font-size: 25px;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+}
+.contact-info a:hover {
+  background-color: #FFFFFF;
+  color: #E7717D;
+  border: 2px solid #C2CAD0;
+}
+nav {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  background: #C2B9B0;
+  width: 100%;
+}
+nav a {
+  display: inline-block;
+  padding: 2px 40px;
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
+}
+nav a:hover {
+  background-color: #FFFFFF;
+  color: #E7717D;
+}
+/*.orb {
+  float: left
+}
+*/
+/* Work Experience */
+.work {
+  background: #D5DEE5;
+  color: #7E685A;
+  padding: 30px;
+}
+h3 ~ p {
+margin: 0;
+}
+.job-description {
+  margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+  margin-top: 0;
+}
+
+/* Education */
+.education {
+  background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../images/sunhills.png) fixed;
+  color: #FFFFFF;
+  padding: 30px;
+}
+p + h3 {
+  margin-top: 30px;
+}
+
+/* Media Quieries */
+@media (min-width: 900px) {
+  .col-narrow {
+    width: 30%;
+    float: left;
+    min-height: 175px;
+  }
+  .col-wide {
+    width: 70%;
+    float: left;
+    padding-left: 20px;
+    min-height: 175px;
+  }
+}
+
+@media (max-width: 899px) {
+  header {
+    text-align: center;
+  }
+  .profile-img {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    padding-bottom: 20px;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  h2 {
+    text-align: center;
+  }
+  nav a {
+    max-width: 19%;
+    padding: 2px 20px;
+    font-size: 18px;
+  }
+  .content-wrap {
+    padding: 5px;
+  }
+  .btn {
+    text-size: 16px;
+  }
+  .contact-info a {
+    max width: 19%;
+    padding: 2px 18px;
+    font-size: 18px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  header, footer {
+    background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.8), rgba(231, 113, 125, 0.3)), url(../images/sunhills@2x.png) fixed;
+  }
+  .education {
+    background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../images/sunhills@2x.png) fixed;
+  }
+}

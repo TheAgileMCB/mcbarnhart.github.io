@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matthew Barnhart | Resume</title>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow|Julius+Sans+One|Source+Sans+Pro:400,400i,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/style.css">
+    <script src="https://kit.fontawesome.com/68c8c390ab.js"></script>
+</head>
+<body>
+    <!-- // Intro -->
+    <header id="about">
+      <a href="boards resume.doc" class="btn download" download><i class="fas fa-file-pdf" aria-hidden="true"></i><span class="sr-only">Downlaod PDF</span> Download PDF</a>
+
+      <nav>
+        <a href="#about"><i class="fas fa-info-circle" aria-hidden="true"></i><span class="sr-only">About Me</span></a>
+        <a href="#work"><i class="fas fa-briefcase" aria-hidden="true"></i><span class="sr-only">Work Experience</span></a>
+        <a href="#education"><i class="fas fa-graduation-cap" aria-hidden="true"></i><span class="sr-only">Education</span></a>
+        <a href="#strengths"><i class="fas fa-dumbbell" aria-hidden="true"></i><span class="sr-only">CliftonStrengths</span></a>
+        <a href="#contact"><i class="fas fa-question-circle" aria-hidden="true"></i><span class="sr-only">Contact Me</span></a>
+      </nav>
+
+      <div class="content-wrap">
+        <img class="profile-img col-narrow" src="Images/ResumeImg.jpg" alt="Matthew Barnhart">
+        <div class="col-wide">
+          <h1>Matthew Barnhart</h1>
+          <h2>Developing Feelings</h2>
+          <p>I am a career food and beverage systems manager focused on technical and aesthetic execution and consistently high quality. I am a imaginative human, educated and active in creative communities exploring and expanding upon words, images, and movement. I am a learning web developer interested in utilizing programming languages and my experience and skill in design, systems, and communication to create thoughtful and inspiring projects.</p>
+        </div>
+      </div>
+        <!--<svg class="orb" height="200" width="200" transform="translate(260 -400)">
+          <defs>
+            <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+              <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0" />
+              <stop offset="100%" style="stop-color:#AFD275;stop-opacity:1" />
+            </radialGradient>
+          </defs>
+          <circle cx="100" cy="100" r="90" fill="url(#grad1)" />
+          Your browser does not support inline SVG.
+        </svg>
+        <svg class="orb" height="150" width="150" transform="translate(500 -130)">
+          <defs>
+            <radialGradient id="grad1" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+              <stop offset="0%" style="stop-color:#FFFFFF;stop-opacity:0" />
+              <stop offset="100%" style="stop-color:#AFD275;stop-opacity:1" />
+            </radialGradient>
+          </defs>
+          <circle cx="75" cy="75" r="50" fill="url(#grad1)" />
+          Your browser does not support inline SVG.
+        </svg>-->
+      </header>
+
+    <main>
+        <!-- // Work Experience -->
+        <section id="work" class="work">
+          <div class="content-wrap">
+            <h2>Work Experience</h2>
+
+            <div class="col-narrow">
+              <h3>Staff Writer</h3>
+              <p class="uppercase">Bagogames.com</p>
+              <p>August 2017 - April 2018</p>
+            </div>
+
+            <div class="col-wide job-description">
+              <p>As a staff writer, I composed journalistic reviews of gaming and entertainment products. I balanced multiple projects simultaneously and met publishing deadlines. I also worked with the WordPress CMS to format my articles for SEO with internal and external links, categories, images, and keywords.</p>
+              <p>Check it out here: <a href="https://bagogames.com/author/superlove-panda/">Bagogames.com/author/superlove-panda</a></p>
+            </div>
+
+            <div class="col-narrow">
+              <h3>Assistant Concessions Manager</h3>
+              <p class="uppercase">Theatre Cedar Rapids</p>
+              <p>June 2016 - March 2018</p>
+            </div>
+
+            <div class="col-wide job-description">
+              <p>
+                As assistant manager, I supported and supervised a team of up to eight people to provide customers with consistent and outstanding products and service. I succesfully multi-tasked in a high-pressure setting, managing inventory and service situations as needed for up to 500 guests. I also established and maintained deep customer relations, providing exceptional community-centric service
+              </p>
+
+              <p>Highlights:</p>
+              <ul>
+                <li>Created new and exciting themed beverages as well as documentation and procedures for superior service and cleanliness</li>
+                <li>Lead teams of unique individuals to cooperate towards successful service situations</li>
+                <li>Responsible for employee oversight and product inventory control and ordering</li>
+              </ul>
+            </div>
+
+            <div class="col-narrow">
+              <h3>General Manager</h3>
+              <p class="uppercase">Press Cafe</p>
+              <p>June 2013 - June 2014</p>
+            </div>
+
+            <div class="col-wide job-description">
+              <p>Supervised a team of up to eight people to provide customers with outstanding products and service
+                Multi-tasked in a high-pressure setting, managing inventory and service situations
+                Established and maintained customer relations, providing exceptional community-centric service
+                Effectively scheduled employee workweeks between two locations with a limited staff
+              </p>
+
+              <!-- This list can be deleted if you don't want to use it. -->
+              <p>Optional list:</p>
+              <ul>
+                <li>Created...</li>
+                <li>Lead...</li>
+                <li>Responsible for</li>
+              </ul>
+              <!-- end of Job Details block. -->
+            </div>
+          </div>
+        </section>
+
+
+        <!-- // Education -->
+        <section id="education" class="education">
+          <div class="content-wrap">
+            <h2>Education</h2>
+            <!-- School details: copy this whole block to add more schools. -->
+            <div class="col-narrow">
+              <h3>Kirkwood Community College, 2011-2012</h3>
+              <p>Creative Writing, Literature, & Art</p>
+            </div>
+            <div class="col-wide">
+              <p></p>
+            </div>
+            <div class="col-narrow">
+              <h3>University of South Dakota, 2006-2008</h3>
+              <p>Business Management & Accounting</p>
+            </div>
+            <div class="col-wide">
+              <p></p>
+            </div>
+            <div class="col-narrow">
+              <h3>Mitchell Technical Institue, 2005-2006</h3>
+              <p>Culinary Art</p>
+            </div>
+            <div class="col-wide">
+              <p></p>
+            </div>
+          </div>
+        </section>
+
+        <!-- // CliftonStrengths -->
+        <section id="strengths" class="work">
+          <div class="content-wrap">
+            <h2>CliftonStrengths</h2>
+            <!-- Specific strengths -->
+            <div class="col-narrow">
+              <h3>Futuristic</h3>
+            </div>
+            <div class="col-wide">
+              <!-- Add as many paragraphs as you need. -->
+              <p>Driven by your talents, you are a visionary thinker. Your vivid mental images of the coming months, years, or decades often impel you to move into action. By nature, you may sense that your life has deep meaning. With remarkable vividness, you occasionally imagine where you will be, what you will
+be doing, and what you will have the ability to accomplish in the coming months, years, or decades. To some degree, your dreams of tomorrow are alive in your mind today. Perhaps you strive to transform these possibilities into reality. Chances are good that you intentionally take steps to be the mastermind of your own future. You refuse to leave your destiny to chance. You probably resist placing it in someone else’s hands. You trust your own intelligence and imagination when setting a
+direction for your life. Because of your strengths, you possess a high level of skill and/or knowledge
+about specialized issues, subjects, processes, or programs. You probably combine this expertise with
+your ability to set definite goals for the coming weeks, months, years, or decades. Instinctively, you
+might be an individual contributor who thinks about specific goals you want to reach in the coming
+months, years, or decades. Your imagination might pull you into the future even as you work on
+current assignments.</p>
+              <!-- End of strengths details. -->
+            </div>
+            <!-- Specific strengths -->
+            <div class="col-narrow">
+              <h3>Intellection</h3>
+            </div>
+            <div class="col-wide">
+              <!-- Add as many paragraphs as you need. -->
+              <p>Instinctively, you are quite capable of holding your own in conversations with reasonable people. You
+appreciate individuals who share your commitment to search for truth. You continually fine tune your
+thinking about the key issues facing individuals and humankind. Topics can range from the ethical
+implications of biological research and its applications to freedom of expression. Because of your
+strengths, you routinely scan data to find meaningful and repetitious sequences. You tend ask
+yourself lots of questions about the numbers and/or the facts. You are delighted whenever you
+discover answers others typically overlook. You probably are more productive when you can work
+alone or have very few interruptions. Driven by your talents, you relish the nuances and intricacies of
+language. Your sophisticated or specialized vocabulary allows you to choose words for their power
+and clarity. Whether speaking or writing, you convey what you are thinking and feeling in a forceful,
+matter-of-fact manner. Usually no one has to second-guess — that is, wonder about — the true
+meaning of your intentions, messages, expectations, or orders. By nature, you need uninterrupted
+quiet time to be alone with your thoughts. Seldom do you automatically accept all the ideas of
+someone who has authored a book, been interviewed by the media, or been invited to address an
+audience. Instead, you scrutinize the theories and concepts of writers, speakers, and philosophers.
+You probably are a critical thinker. Chances are good that you engage others in conversation about
+the meaning of life. You discuss subjects beyond the understanding of the average mind. You afford
+individuals an opportunity to be creative, study, reflect, speculate, or tell stories. These activities
+stimulate your thinking. Undoubtedly, you prefer to spend time with intelligent people who can
+understand what you are saying.</p>
+              <!-- End of strengths details. -->
+            </div>
+            <!-- Specific strengths -->
+            <div class="col-narrow">
+              <h3>Input</h3>
+            </div>
+            <div class="col-wide">
+              <!-- Add as many paragraphs as you need. -->
+              <p>Instinctively, you possess the physical and mental endurance needed to spend hours studying,
+reading, or researching. The more you know, the more questions you have to ask. Your diligence
+reflects your need to work harder and longer than most people can. You set lofty goals for yourself
+and relentlessly pursue them. Once you have reached your objective, you direct much of your energy
+toward a second goal. You are self-motivated. You prefer to push yourself rather than relax. By nature, you are a wordsmith — that is, a person who works with words. With ease, you collect hard-to-
+understand terms and their definitions. Whether you can use these immediately or months later is of
+
+no concern. You probably realize your sophisticated vocabulary is an “open sesame” — that is, words
+that unfailingly bring about a desired end. You are likely to speak or write in such a manner that the
+condition of humankind improves in a meaningful way. Because of your strengths, you are devoted to
+building your vocabulary. Each time you memorize a complicated or theoretical word and its meaning,
+you probably are eager to use it in conversations, discussions, or presentations. Undoubtedly, your
+work or studies demand that you continually add highly technical terms to your vocabulary. Chances
+are good that you thirst for new ideas and knowledge. Often you lose yourself in a book. You pore
+over the ideas contained on its pages for long stretches of time. Why? You want to absorb as much
+information as you can. Driven by your talents, you see yourself as highly qualified to perform
+specialized tasks. Undoubtedly, your uncommon vocabulary distinguishes you from the ordinary
+person. Adding words to your professional vocabulary indicates that your knowledge base is
+expanding. As a result, you can converse more easily with experts about a subject. Furthermore, you
+can understand what they are saying to one another.</p>
+              <!-- End of strengths details. -->
+            </div>
+            <!-- Specific strengths -->
+            <div class="col-narrow">
+              <h3>Relator</h3>
+            </div>
+            <div class="col-wide">
+              <!-- Add as many paragraphs as you need. -->
+              <p>Driven by your talents, you are quite comfortable being honest about yourself with others. You harbor
+very few illusions about who you really are. Furthermore, you can openly acknowledge your mistakes
+and shortcomings. This is apt to distinguish you from most people. By nature, you enjoy being busy,
+especially when you can assist someone in need. You are likely to be a good partner at home, in the
+workplace, at school, or in the community. You tend to do more than is expected of you. Why? You
+probably worry about wasting time. This explains your habits of volunteering for projects and asking
+for extra duties. Chances are good that you occasionally tell yourself that you are an effective mentor
+or trainer. Perhaps individuals benefit from the investment you make in them. Instinctively, you
+thoughtfully select your friends. You avoid rushing into relationships. Once you trust and care about
+someone, the individual probably seeks your counsel. Because of your strengths, you have close
+companions who frequently seek your guidance. You help them find answers to their personal and
+professional problems. This makes you a valuable friend.</p>
+              <!-- End of strengths details. -->
+            </div>
+            <!-- Specific strengths -->
+            <div class="col-narrow">
+              <h3>Analytical</h3>
+            </div>
+            <div class="col-wide">
+              <!-- Add as many paragraphs as you need. -->
+              <p>Because of your strengths, you may identify the specific traits or experiences that distinguish one
+person from the next. When you familiarize yourself with someone, you might be able to predict how
+the person will react in different situations. Driven by your talents, you aid others by concentrating
+their attention on objective and factual information. You probably examine data, review studies,
+conduct investigations, gather evidence, and decide what it all means. You are likely to document the
+steps so individuals can quickly reference the material later. Chances are good that you routinely
+study the factors coming together to create a situation. You definitely appreciate individuals who invite
+you to share your findings. It is not your style to boldly talk about your research. However, someone
+you trust can encourage you to speak. Instinctively, you may be inclined to double check your work.
+Perhaps you need to understand how one idea or fact links to whatever precedes or follows it. It’s
+very likely that you may be sought out for advice by individuals who appreciate your methodical
+thinking style. To some extent, your approach prevents people from being distracted by their own or
+someone else’s emotions. Perhaps you help them concentrate on the facts more than on than their
+feelings.</p>
+              <!-- End of strengths details. -->
+            </div>
+          </div>
+        </section>
+    </main>
+
+    <!-- // Footer & contact info -->
+    <footer>
+      <div id="contact" class="content-wrap">
+        <h2>Let's Keep in Touch!</h2>
+
+        <!-- Social media and contact links. Add or remove any networks. -->
+        <div class="contact-info">
+            <a href="mailto:matthewcharlesbarnhart@gmail.com"><i class="fas fa-envelope-square" aria-hidden="true"></i><span class="sr-only">matthewcharlesbarnhart@gmail.com</span></a>
+            <a href="http://mcbarnhart.github.io/index.html" target="_blank"><i class="fab fa-github-square" aria-hidden="true"></i><span class="sr-only">Github</span></a>
+            <a href="https://www.instagram.com/matt.the.baristo/" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i><span class="sr-only">Instagram</span></a>
+            <a href="https://www.linkedin.com/in/matthewcbarnhart" target="_blank"><i class="fab fa-linkedin" aria-hidden="true"></i><span class="sr-only">LinkedIn</span></a>
+            <a href="https://www.facebook.com/matt.barnhart.92" target="_blank"><i class="fab fa-facebook-square" aria-hidden="true"></i><span class="sr-only">Facebook</span></a>
+        </div>
+
+        <p>Copyright 2019 by Matthew Barnhart</p>
+        <p>
+          <a style="background-color:black;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px" href="https://unsplash.com/@huguesdb?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Hugues de BUYER-MIMEURE"><span style="display:inline-block;padding:2px 3px"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-2px;fill:white" viewBox="0 0 32 32"><title>unsplash-logo</title><path d="M10 9V0h12v9H10zm12 5h10v18H0V14h10v9h12v-9z"></path></svg></span><span style="display:inline-block;padding:2px 3px">Hugues de BUYER-MIMEURE</span></a>
+        </p>
+      </div>
+    </footer>
+</body>
+</html>

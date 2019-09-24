@@ -1,67 +1,84 @@
-/* #2F2FA2 - blue
+/*      colors
+-------------------------
+ #2F2FA2 - blue
 #99738E - lavender
 #F64C72 - red
 #553D67 - plum
 #242582 - dark blue */
 
-/* Global Styles */
+/*----------------------------------
+         Global Styles
+------------------------------------*/
+html, body {
+  height: 100%;
+}
 html {
   box-sizing: border-box;
+  font-size: 16px;
 }
 *, *:before, *:after {
   box-sizing: inherit;
 }
 
-
 body {
   font-family: 'Source Sans Pro', sans-serif;
-font-size:20px;
-line-height:1.5;
-margin: 0;
+  font-size:1.25rem;
+  line-height:1.5;
+  margin: 0;
 }
 h1, h2, h3, h4 {
   margin: 0;
+  font-weight: 400;
+}
+h2, h3 {
+  font-family: 'Archivo Narrow', sans-serif;
 }
 h1 {
   font-family: 'Julius Sans One', sans-serif;
-  font-size: 80px;
+  font-size: 5rem;
   padding-bottom: 20px;
 }
 h2 {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 40px;
-  margin-top: 0;
+  font-size: 2.5rem;
 }
 h3 {
-  font-family: 'Archivo Narrow', sans-serif;
-  font-size: 30px;
-  margin: 0;
+  font-size: 1.875rem;
 }
 main {
   text-align: center;
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #FFFFFF;
   background: linear-gradient(to top left, rgba(153, 115, 142, 1), rgba(85, 61, 103, 0.9)), url(../Images/honeycomb.jpg) fixed;
   margin: 0;
   padding: 10px 220px;
+  min-height: 100%;
 }
-
-p {
-  margin: 20px 0;
+.prose {
+  text-align: left;
+  text-indent: 40px;
 }
-
-main p:nth-of-type(3) {
-  padding-top: 70px;
-  margin-bottom: 40px;
+.poetry {
+  /* text-align: center; */
 }
-
 iframe {
   border: 2px solid #F64C72;
+  margin-bottom: 100px;
 }
 
-/* Header and Footer */
+a:focus {
+  outline: 4px solid #F64C72;
+  background-color: #553D67;
+}
+li {
+  list-style-type: circle;
+}
 
-/* Header */
+/*-------------------------------
+          Header and Footer
+--------------------------------*/
+
+/*             Header
+------------------------------*/
 header {
   background: linear-gradient(to right, rgba(47, 47, 162, 1), rgba(36, 37, 130, 0.7)), url(../Images/BubbleBanner.jpg);
   background-position: right;
@@ -73,20 +90,22 @@ header {
   position: relative;
 }
 
-/* Footer */
-.footer {
+/*          Footer
+---------------------------------*/
+.bottom-matter {
   margin-top: 200px;
 }
-
+.footer {
+  margin-top: 150px;
+}
 .contact-info {
   float: left;
   width: 100%;
-  margin: 20px;
 }
 .contact-info a {
   padding: 2px 40px;
   display: inline-block;
-  font-size: 25px;
+  font-size: 1.5rem;
   border: 2px solid #F64C72;
   color: #FFFFFF;
   margin-bottom: 20px;
@@ -97,8 +116,10 @@ header {
   border: 2px solid #D1E8E2;
 }
 
-/* Navigation */
-nav {
+/*------------------------------
+          Navigation
+ -----------------------------*/
+.sidenav {
   width: 160px;
   position: fixed;
   top: 0;
@@ -107,32 +128,43 @@ nav {
   background: linear-gradient(to bottom left, rgba(47, 47, 162, 1), rgba(36, 37, 130, 0.7)), url(../Images/BubbleBar.jpg);
   background-size: contain;
 }
-
-nav a {
+.sidenav a {
   display: block;
   text-decoration: none;
   color: #FFFFFF;
   padding: 15px 2px;
   text-transform: uppercase;
-  max-height: 60px;
+  border: 2px solid transparent;
+  /* max-height: 60px; */
 }
-
-nav a:hover {
+.sidenav a:hover {
   color: #FFFFFF;
   background-color: #553D67;
   border: 2px solid #F64C72;
 }
-
-nav a.active {
+.sidenav a.active {
   border: 2px solid #F64C72;
 }
+.content-nav {
+  margin-bottom: 60px;
+}
+.content-nav a {
+  text-decoration: none;
+  color: #FFFFFF;
+  display: block;
+  text-align: left;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
 
-/* Media Queries */
+/*--------------------------------
+          Media Queries
+--------------------------------*/
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   header {
     background: linear-gradient(to right, rgba(47, 47, 162, 1), rgba(36, 37, 130, 0.7)), url(../Images/BubbleBanner@2x.jpg);
   }
-  nav {
+  .sidenav {
     background: linear-gradient(to right, rgba(47, 47, 162, 1), rgba(36, 37, 130, 0.7)), url(../Images/BubbleBanner@2x.jpg);
   }
   main {
@@ -146,15 +178,15 @@ nav a.active {
     padding-top: 60px;
   }
   h1 {
-    font-size: 50px;
+    font-size: 3.125rem;
     padding-bottom: 0;
   }
   main {
-    font-size: 20px;
+    font-size: 1.25rem;
     padding: 15px;
   }
 
-  nav {
+  .sidenav {
     background: linear-gradient(to right, rgba(47, 47, 162, 1), rgba(36, 37, 130, 0.7)), url(../Images/BubbleBannerHalf.jpg) bottom;
     width: 100%;
     height: auto;
@@ -163,13 +195,16 @@ nav a.active {
     margin: 0;
     border-bottom: 2px solid #F64C72;
     }
-  nav a {
+  .sidenav a {
     display: inline-block;
     padding: 15px 15px;
-    font-size: 20px;
+    font-size: 1.25rem;
   }
   .contact-info a {
     padding: 30px 30px;
+  }
+.content-nav a:hover {
+  color: #F64C72;
   }
 }
 
@@ -178,7 +213,7 @@ nav a.active {
     padding-top: 130px;
   }
   h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
   }
   iframe {
     width: 300px;
@@ -192,11 +227,11 @@ nav a.active {
 
 @media (max-width: 320px) {
   h1 {
-    font-size: 25px;
+    font-size: 1.5rem;
   }
   .contact-info a {
     padding: 16px;
-    font-size: 18px;
+    font-size: 1.125rem;
   }
 }
 
@@ -205,13 +240,19 @@ nav a.active {
     transition: all 1s;
   }
   .contact-info a:hover {
-    padding: 4px 60px;
-    font-size: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
   }
-  nav a {
+  .sidenav a {
     transition: all 1s;
   }
-  nav a:hover {
+  .sidenav a:hover {
     margin: auto -50px auto 50px;
+  }
+.content-nav a {
+  transition: all 1s;
+  }
+.content-nav a:hover {
+  font-size: 1.75rem;
   }
 }

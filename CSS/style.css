@@ -161,6 +161,15 @@ p + h3 {
 }
 
 /* Media Quieries */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  header, footer {
+    background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.8), rgba(231, 113, 125, 0.3)), url(../Images/coffee-cappuccino@2x.jpg) fixed;
+  }
+  .education {
+    background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../Images/coffee-cappuccino@2x.jpg) center;
+  }
+}
+
 @media (min-width: 900px) {
   .col-narrow {
     width: 30%;
@@ -210,13 +219,10 @@ p + h3 {
     padding: 2px 18px;
     font-size: 18px;
   }
-}
-
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   header, footer {
-    background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.8), rgba(231, 113, 125, 0.3)), url(../Images/coffee-cappuccino@2x.jpg) fixed;
+    background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.8), rgba(231, 113, 125, 0.3)), url(../Images/coffee-cappuccino-phone.jpg) fixed;
   }
   .education {
-    background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../Images/coffee-cappuccino@2x.jpg) center;
+    background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../Images/coffee-cappuccino-phone.jpg) center;
   }
 }

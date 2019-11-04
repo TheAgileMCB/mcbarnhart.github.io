@@ -1,5 +1,5 @@
 /* color palette
-#E7717D - pink red
+#D12335 - pink red
 #C2CAD0 - stone grey
 #C2B9B0 - tan
 #7E685A - brown
@@ -15,6 +15,10 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+@font-face {
+  font-family: 'lifelogo-easy';
+  src: url(../Fonts/lifelogo-easy.ttf);
+}
 body {
 font-family: 'Source Sans Pro', sans-serif;
 font-size:20px;
@@ -29,7 +33,7 @@ h2, h3, h4 {
   font-family: 'Archivo Narrow', sans-serif;
 }
 h1 {
-  font-family: 'Julius Sans One', sans-serif;
+  font-family: 'lifelogo-easy', sans-serif;
   font-size: 70px;
 }
 h2 {
@@ -42,13 +46,13 @@ h4 {
   font-size: 25px;
 }
 a {
-  color: #E7717D;
+  color: #D12335;
   text-decoration: none;
 }
 a:hover {
-  background-color: #E7717D;
+  background-color: #AFD275;
   color: #FFFFFF;
-  border: 2px solid #C2CAD0;
+  /* border: 2px solid #C2CAD0; */
 }
 .content-wrap {
   max-width: 1200px;
@@ -62,9 +66,9 @@ a:hover {
 
 a:focus {
   outline: none;
-  border: 2px solid #E7717D;
+  border: 2px solid #D12335;
   background: #FFFFFF;
-  color: #E7717D;
+  color: #D12335;
 }
 
 /* Download button
@@ -72,16 +76,18 @@ a:focus {
 .btn {
   text-decoration: none;
   background: #C2CAD0;
-  color: #E7717D;
-  border: 2px solid #C2CAD0;
+  color: #D12335;
+  /* border: 2px solid #AFD275; */
   padding: 4px 10px;
   display: inline-block;
+  /* border-radius: 5%; */
 }
 
 /* Header and Footer */
 header, footer {
-  background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.3), rgba(231, 113, 125, 0.9)), url(../Images/coffee-cappuccino.jpg) fixed;
+  background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.6), rgba(209, 35, 53, 0.3), rgba(209, 35, 53, 0.9)), url(../Images/coffee-cappuccino.jpg) fixed;
   color: #FFFFFF;
+  border-left: 16px solid #AFD275;
 }
 /* header */
 header {
@@ -95,6 +101,7 @@ header {
 }
 .profile-img {
   border-radius: 50%;
+  border: 8px double #AFD275;
 }
 /* footer*/
 footer {
@@ -110,35 +117,53 @@ text-align: center;
 }
 .contact-info a:hover {
   background-color: #FFFFFF;
-  color: #E7717D;
+  color: #D12335;
   border: 2px solid #C2CAD0;
 }
 nav {
   text-align: center;
   position: fixed;
   top: 0;
-  background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(126, 104, 90, 0.7));
+  background: linear-gradient(to bottom right, rgba(126, 104, 90, 1), rgba(126, 104, 90, 0.8));
   width: 100%;
+  border-bottom: 2px solid #AFD275;
 }
 nav a {
   display: inline-block;
-  padding: 2px 40px;
+  padding: 4px 40px;
   border: 2px solid #FFFFFF;
   color: #FFFFFF;
 }
 nav a:hover {
   background-color: #FFFFFF;
-  color: #E7717D;
+  color: #D12335;
 }
-/*.orb {
-  float: left
+.hire-me {
+  position: fixed;
+  right: 0;
+  top: 350px;
+  background-color: #AFD275;
+  color: #FFFFFF;
+  padding: 20px 15px 20px 8px;
+  margin-right: -8px;
+  font-size: 2rem;
+  border-radius: 5%;
 }
-*/
+.hire-me a {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.orb {
+  position: absolute;
+}
+
 /* Work Experience */
 .work {
-  background: #D5DEE5;
+  /* background: radial-gradient(rgba(255, 255, 255, 1) 80%, rgba(175, 210, 117, 1)); */
   color: #7E685A;
   padding: 30px;
+  border-top: 2px solid #AFD275;
+  border-left: 16px double #AFD275;
 }
 h3 ~ p {
 margin: 0;
@@ -155,6 +180,7 @@ margin: 0;
   background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../Images/coffee-cappuccino.jpg) center;
   color: #FFFFFF;
   padding: 30px;
+  border-left: 16px solid #AFD275;
 }
 p + h3 {
   margin-top: 30px;
@@ -163,7 +189,7 @@ p + h3 {
 /* Media Quieries */
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   header, footer {
-    background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.8), rgba(231, 113, 125, 0.3)), url(../Images/coffee-cappuccino@2x.jpg) fixed;
+    background: linear-gradient(to bottom right, rgba(209, 35, 53, 0.8), rgba(209, 35, 53, 0.3)), url(../Images/coffee-cappuccino@2x.jpg) fixed;
   }
   .education {
     background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../Images/coffee-cappuccino@2x.jpg) center;
@@ -220,7 +246,7 @@ p + h3 {
     font-size: 18px;
   }
   header, footer {
-    background: linear-gradient(to bottom right, rgba(231, 113, 125, 0.8), rgba(231, 113, 125, 0.3)), url(../Images/coffee-cappuccino-phone.jpg) fixed;
+    background: linear-gradient(to bottom right, rgba(209, 35, 53, 0.8), rgba(209, 35, 53, 0.3)), url(../Images/coffee-cappuccino-phone.jpg) fixed;
   }
   .education {
     background: linear-gradient(to bottom right, rgba(126, 104, 90, 0.9), rgba(194, 185, 175, 0.6)), url(../Images/coffee-cappuccino-phone.jpg) center;

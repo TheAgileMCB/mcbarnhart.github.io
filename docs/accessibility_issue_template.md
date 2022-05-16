@@ -1,6 +1,6 @@
 ---
-name: Accessibility issue tracking
-about: Use this template for tracking accessibility issues.
+name: Accessibility problem tracking
+about: Use this template for tracking accessibility problems.
 ---
 
 
